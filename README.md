@@ -1,8 +1,16 @@
-# React + Vite
+# Ye Quotes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Roadmap :
 
-Currently, two official plugins are available:
+✅ Set up the API
+❎ Custom background with each quote
+❎ Custom Navbar
+❎ Share options to social media
+❎ next Quote button
+❎ Add a ye picture
+❎ Add favourite option
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
