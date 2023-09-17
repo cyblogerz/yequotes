@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-
+import { useEffect, useState } from "react";
+import './Quote.css';
 
 
 const Quote = () => {
@@ -14,9 +14,9 @@ const Quote = () => {
     },[]);
 
   return (
-    <div>
-        <h1>{quote}</h1>
-        <p>-Kanye West</p>
+    <div className="quotebody">
+        <h1 className="quote">{quote}</h1>
+        <p className="author">-Kanye West</p>
     </div>
     
     

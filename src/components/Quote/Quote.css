@@ -1,0 +1,17 @@
+.quote{
+    color: white;
+    font-size: 4rem;
+}
+
+.author{
+    color: white;
+    font-size: 2rem;
+}
+
+.quotebody{
+    display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center along the vertical (Y) axis */
+  align-items: flex-start; /* Center along the horizontal (X) axis */
+  height: 100vh; 
+}
