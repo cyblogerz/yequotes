@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import './Quote.css';
+import QuoteWrapper from "./QuoteWrapper";
+
 
 
 const Quote = () => {
@@ -14,10 +16,10 @@ const Quote = () => {
     },[]);
 
   return (
-    <div className="quotebody">
+    <QuoteWrapper className="quotebody">
         <h1 className="quote">{quote}</h1>
         <p className="author">-Kanye West</p>
-    </div>
+    </QuoteWrapper>
     
     
   )

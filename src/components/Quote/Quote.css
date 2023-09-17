@@ -9,9 +9,13 @@
 }
 
 .quotebody{
-    display: flex;
+    /* display: flex;
   flex-direction: column;
-  justify-content: center; /* Center along the vertical (Y) axis */
-  align-items: flex-start; /* Center along the horizontal (X) axis */
-  height: 100vh; 
+  justify-content: center; 
+  align-items: flex-start; 
+  height: 100vh;  */
+  position: absolute;
+  top: 20%;
+  
+  
 }
