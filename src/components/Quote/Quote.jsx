@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import './Quote.css';
 import QuoteWrapper from "./QuoteWrapper";
+import Button from "../Button/Button";
 
 
 
@@ -19,6 +20,7 @@ const Quote = () => {
     <QuoteWrapper className="quotebody">
         <h1 className="quote">{quote}</h1>
         <p className="author">-Kanye West</p>
+        <Button />
     </QuoteWrapper>
     
     
