@@ -1,14 +1,17 @@
-# Ye Quotes
+# Ye Quotes - Kanye west tweets and quotes
 
-Roadmap :
+![Website Screenshot]![Alt text](image.png)
 
-✅ Set up the API
-❎ Custom background with each quote
-❎ Custom Navbar
-❎ Share options to social media
-❎ next Quote button
-❎ Add a ye picture
-❎ Add favourite option
+## About
+
+This is a simple website that displays quotes from the legendary Kanye West. It fetches quotes from the [Kanye REST API](https://api.kanye.rest/) and presents them in a clean and minimalistic interface.
+
+## Demo
+
+Check out the live demo: [Kanye West Quotes](https://your-demo-url.com)
+
+
+
 
 
 
