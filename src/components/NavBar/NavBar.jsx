@@ -9,7 +9,7 @@ const NavBar = () => {
     <h1 className="text-2xl font-bold text-white"> YeQuotes</h1>
     </div>
     <div className="flex  items-center">
-        <div className='mr-4' ><a href="#">
+        <div className='mr-4' ><a href="https://github.com/cyblogerz" target="_blank" rel="noopener noreferrer">
           <BsGithub className='text-white text-2xl'/>
         </a></div>
         <div ><a href="#">
