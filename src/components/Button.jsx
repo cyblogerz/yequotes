@@ -1,7 +1,9 @@
 
 const Button = (props) => {
   return (
-    <button class="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text text-2xl 
+    <button 
+    onClick={props.onFetch}
+    className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text text-2xl 
     hover:from-purple-500 hover:to-blue-500
     transition duration-300 ease-in-out transform hover:scale-105
     md:text-3xl font-bold mt-8">
