@@ -8,7 +8,7 @@ This is a simple website that displays quotes from the legendary Kanye West. It 
 
 ## Demo
 
-Check out the live demo: [Kanye West Quotes](https://your-demo-url.com)
+Check out the live demo: [Kanye West Quotes](https://yequote.netlify.app)
 
 
 
