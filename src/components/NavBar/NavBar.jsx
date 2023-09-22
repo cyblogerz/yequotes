@@ -1,9 +1,10 @@
 import {BsGithub,BsTwitter} from 'react-icons/bs'
 import {BiSolidQuoteLeft} from 'react-icons/bi'
 
+
 const NavBar = () => {
   return (
-    <nav className='flex flex-row justify-between mx-10'>
+    <nav className='flex flex-row justify-between p-4  '>
     <div className='flex items-center'>
     <BiSolidQuoteLeft className='text-white text-2xl mr-2 text-blue-500'/>
     <h1 className="text-2xl font-bold 
