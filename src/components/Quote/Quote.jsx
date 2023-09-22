@@ -18,10 +18,12 @@ const Quote = () => {
   return (
     <div className="flex items-center justify-center flex-col h-[80%]">
  
-    <BiSolidQuoteLeft className="text-white text-4xl"/>
-      <h1 className="text-4xl md:text-6xl font-bold text-white max-w-[50%] max-h-[50%] overflow-y-auto md:text-center">
+    <BiSolidQuoteLeft className="text-white text-4xl mb-6"/>
+      <h1 className="
+     
+      text-4xl md:text-6xl font-bold text-white max-w-[50%] max-h-[50%] overflow-y-auto md:text-center">
       {quote}</h1>
-      
+     
       <Button />
     </div>
     
