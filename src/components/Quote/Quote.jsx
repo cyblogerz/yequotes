@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import './Quote.css';
 import QuoteWrapper from "./QuoteWrapper";
-import Button from "../Button/Button";
+import Button from "../Button";
 
 
 
@@ -17,11 +16,10 @@ const Quote = () => {
     },[]);
 
   return (
-    <QuoteWrapper className="quotebody">
-        <h1 className="quote">{quote}</h1>
-        <p className="author">-Kanye West</p>
-        <Button />
-    </QuoteWrapper>
+    <div className="flex items-center justify-center flex-col h-screen">
+      <h1 className="text-6xl font-bold text-white max-w-[50%] text-center">{quote}</h1>
+      <Button />
+    </div>
     
     
   )
